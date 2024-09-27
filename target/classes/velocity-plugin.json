@@ -1,0 +1,1 @@
+{"id":"velocitybroadcast","name":"VelocityBroadcast","version":"1.0-SNAPSHOT","description":"Broadcast messages across all servers","authors":["adzel"],"dependencies":[],"main":"com.adzel.vbroadcast.VelocityBroadcast"}
