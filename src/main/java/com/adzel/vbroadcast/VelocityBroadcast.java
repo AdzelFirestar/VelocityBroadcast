@@ -6,6 +6,7 @@ import com.velocitypowered.api.plugin.Plugin;
 import com.velocitypowered.api.proxy.ProxyServer;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
+import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 import org.slf4j.Logger;
 
 import javax.inject.Inject;
@@ -46,9 +47,12 @@ public class VelocityBroadcast {
                 return;
             }
 
+            // Join the message arguments and convert legacy color codes
             String message = String.join(" ", args);
-            server.getAllPlayers().forEach(player -> player.sendMessage(Component.text("[Broadcast] ").color(NamedTextColor.AQUA)
-                    .append(Component.text(message).color(NamedTextColor.WHITE))));
+            Component broadcastMessage = LegacyComponentSerializer.legacyAmpersand().deserialize("&b[Broadcast] &f" + message);
+
+            // Send the formatted message to all players
+            server.getAllPlayers().forEach(player -> player.sendMessage(broadcastMessage));
 
             logger.info("Broadcast message: {}", message);
         }
