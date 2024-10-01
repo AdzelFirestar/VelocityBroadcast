@@ -14,3 +14,5 @@ Right now we only have two plans. You can suggest more though if you want to see
 
 ## Licensing
 Please do not distribute my code as your own. Please do not rip my code and make a new plugin and claim it as your own. Please do not distribute my plugin jar or other files elsewhere. They are on github for a reason. If you want to suggest commits and help me make this plugin better, do so through the correct channels. Thank you.
+
+The code herein is property of Adzel_Firestar (AKA AdzelFirestar, AdzelFire, Addy, AddyFire, and RPCraft) 
