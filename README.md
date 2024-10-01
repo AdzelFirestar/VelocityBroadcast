@@ -13,7 +13,11 @@ The main command is /vbroadcast (or you can use the aliase /vb). Usage is as sim
 Right now we only have two plans. You can suggest more though if you want to see a feature added. Just add a suggestion through the "Issues" menu above. I will take a look and see if it is a good idea to add the feature you want to see.
 
 ## Want to Support My Plugin Development?
-You can support me on Paypal with the following link: [Donate towards our development](https://www.paypal.com/ncp/payment/YX66N8HF5R4KL)
+You can support me on Paypal with the following link: [Donate Towards our Development](https://www.paypal.com/ncp/payment/YX66N8HF5R4KL)
+
+Or Alternatively you can scan the QR code below:
+
+![Donation QR Code](https://imgur.com/1Nu6NHB.png "Donate Towards our Development")
 
 ## Licensing
 Please do not distribute my code as your own. Please do not rip my code and make a new plugin and claim it as your own. Please do not distribute my plugin jar or other files elsewhere. They are on github for a reason. If you want to suggest commits and help me make this plugin better, do so through the correct channels. Thank you.
