@@ -1,1 +1,7 @@
-prefix: '&9&l[&3&lServer&9&l]&r'
+# DO NOT EDIT
+Plugin Version: '1.0-pre' # Do not edit this value, as it will mess up version checking and break the plugin
+
+# ONLY EDIT BELOW THIS LINE
+debug-messages-enabled: false # This enables/disables debug messages (Default: false)
+version-check-enabled: true # This toggles the yellow version message admins see on login. (Default: true)
+prefix: '&9&l[&3&lServer&9&l]&r ' # The prefix of the broadcasts and server messages

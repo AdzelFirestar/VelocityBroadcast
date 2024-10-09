@@ -1,4 +1,3 @@
-com\adzel\vbroadcast\VelocityBroadcast$PrefixCommand.class
-com\adzel\vbroadcast\VelocityBroadcast$BroadcastCommand.class
+com\adzel\vbroadcast\VelocityBroadcast$CombinedCommand.class
 velocity-plugin.json
 com\adzel\vbroadcast\VelocityBroadcast.class
